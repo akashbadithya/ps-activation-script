@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0d1117"/>
+  <g>
+    <!-- Layer stack - three offset planes suggesting stacked layers -->
+    <polygon points="148,58 218,96 148,134 78,96" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linejoin="miter"/>
+    <polygon points="148,88 218,126 148,164 78,126" fill="none" stroke="#c9d1d9" stroke-width="2.5" stroke-linejoin="miter" opacity="0.7"/>
+    <polygon points="148,118 218,156 148,194 78,156" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linejoin="miter" opacity="0.85"/>
+
+    <!-- PowerShell chevron fused into the left side of the stack -->
+    <polyline points="42,78 112,116 42,154" fill="none" stroke="#3fb950" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter"/>
+    <polyline points="42,118 78,137" fill="none" stroke="#c9d1d9" stroke-width="6" stroke-linecap="square"/>
+
+    <!-- Vertical connector spine: surgical registration line -->
+    <line x1="128" y1="30" x2="128" y2="226" stroke="#c9d1d9" stroke-width="1.5" opacity="0.25"/>
+    <line x1="128" y1="30" x2="128" y2="72" stroke="#3fb950" stroke-width="2" opacity="0.6"/>
+    <line x1="128" y1="184" x2="128" y2="226" stroke="#3fb950" stroke-width="2" opacity="0.6"/>
+
+    <!-- Surgical crosshair markers (terminal-native registration) -->
+    <line x1="120" y1="30" x2="136" y2="30" stroke="#3fb950" stroke-width="2"/>
+    <line x1="128" y1="22" x2="128" y2="38" stroke="#3fb950" stroke-width="2"/>
+    <line x1="120" y1="226" x2="136" y2="226" stroke="#3fb950" stroke-width="2"/>
+
+    <!-- Small green block cursor / prompt accent bottom-left -->
+    <rect x="42" y="184" width="14" height="14" fill="#3fb950" opacity="0.9"/>
+    <rect x="60" y="184" width="6" height="14" fill="#58a6ff" opacity="0.6"/>
+
+    <!-- Subtle subversive notch cut from top-right of the layer stack -->
+    <polygon points="218,96 218,82 204,96" fill="#0d1117"/>
+    <polygon points="218,96 218,82 204,96" fill="none" stroke="#58a6ff" stroke-width="2"/>
+
+    <!-- Hand-tooled edge detail: small diagonal ticks on stack corners -->
+    <line x1="78" y1="96" x2="68" y2="102" stroke="#c9d1d9" stroke-width="1.5" opacity="0.5"/>
+    <line x1="148" y1="58" x2="148" y2="48" stroke="#c9d1d9" stroke-width="1.5" opacity="0.4"/>
+    <line x1="148" y1="194" x2="148" y2="204" stroke="#3fb950" stroke-width="1.5" opacity="0.6"/>
+  </g>
+</svg>
